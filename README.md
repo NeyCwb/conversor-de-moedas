@@ -48,7 +48,7 @@ Ao executar o programa, o usuário verá o seguinte menu:
 
 	Cotação do Dólar(USD) em relação Real(BRL) 
 
-						5,49
+			5,49
 
 
 	Digite o valor em Dólar: 100,0
@@ -62,8 +62,6 @@ O usuário digita o número da opção conforme apresenta o menu. Em seguida sol
 
 ## 📦 Exemplo de Uso
 ====== CONVERSOR DE MOEDAS ======
-1. Dólar (USD) → Real (BRL)
-...
 Digite a opção: 1
 Digite o valor em Dólar: 100,0
 Coversão para Real...:  549.18
@@ -92,8 +90,10 @@ Compile o projeto:
 javac ConversorMoedas.java
 Execute o programa:
 java ConversorMoedas
+
 📎 Observações
 A versão gratuita da ExchangeRate-API permite apenas um número limitado de requisições por mês.
+Para uso contínuo, considere obter uma chave de API com um plano adequado.
 
 🔐 Configuração da chave da API
 Este projeto não inclui a chave da API por segurança. Você precisa criar seu próprio arquivo com sua chave pessoal.
@@ -108,7 +108,5 @@ Crie um arquivo chamado config.properties na raiz do projeto com o seguinte cont
 API_KEY=sua-chave-aqui
 ⚠ Importante: Nunca compartilhe esse arquivo nem a chave.
 O arquivo config.properties já está listado no .gitignore.
-
-Para uso contínuo, considere obter uma chave de API com um plano adequado.
 
 Desenvolvido com ☕ por Ney Cruz 
