@@ -112,7 +112,9 @@ Copie sua API Key.
 Crie um arquivo chamado config.properties na raiz do projeto com o seguinte conteúdo:  
 API_KEY=sua-chave-aqui  
 
-⚠ Importante: Nunca compartilhe esse arquivo nem a chave.  
+⚠ Importante:  
+
+Nunca compartilhe esse arquivo nem a chave.  
 O arquivo config.properties já está listado no .gitignore.  
 
 Desenvolvido com ☕ por Ney Cruz 
