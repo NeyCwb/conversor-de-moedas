@@ -61,12 +61,14 @@ Ao executar o programa, o usuário verá o seguinte menu:
 O usuário digita o número da opção conforme apresenta o menu. Em seguida solicita a digitação do valor a ser covertido e na sequência será exibido o valor da conversão.
 
 ## 📦 Exemplo de Uso
-====== CONVERSOR DE MOEDAS ======
-Digite a opção: 1
-Digite o valor em Dólar: 100,0
-Coversão para Real...:  549.18
+
+====== CONVERSOR DE MOEDAS ======  
+Digite a opção: 1  
+Digite o valor em Dólar: 100,0  
+Coversão para Real...:  549.18  
 
 🧠 Como funciona  
+
 O programa solicita ao usuário a escolha da conversão e o valor.  
 Com base nas moedas escolhidas, monta uma URL para a ExchangeRate-API.
 
@@ -75,6 +77,7 @@ Usa HttpClient e HttpRequest para fazer uma requisição GET.
 Mapeia a resposta JSON para um record. 
 
 🔑 Requisitos  
+
 Java 17 ou superior
 
 Acesso à internet para consultar a API
@@ -82,6 +85,7 @@ Acesso à internet para consultar a API
 Chave de API da ExchangeRate-API 
 
 🛠️ Como executar  
+
 Clone o repositório:  
 git clone https://github.com/NeyCwb/conversor-de-moedas.git  
 cd conversor-de-moedas  
@@ -92,21 +96,21 @@ Execute o programa:
 java ConversorMoedas  
 
 📎 Observações  
+
 A versão gratuita da ExchangeRate-API permite apenas um número limitado de requisições por mês.
 Para uso contínuo, considere obter uma chave de API com um plano adequado.
 
 🔐 Configuração da chave da API  
+
 Este projeto não inclui a chave da API por segurança.  
 Você precisa criar seu próprio arquivo com sua chave pessoal.  
 
 ✅ Passos:  
+
 Acesse https://www.exchangerate-api.com/ e crie uma conta gratuita.  
-
 Copie sua API Key.  
-
 Crie um arquivo chamado config.properties na raiz do projeto com o seguinte conteúdo:  
-
-API_KEY=sua-chave-aqui    
+API_KEY=sua-chave-aqui  
 ⚠ Importante: Nunca compartilhe esse arquivo nem a chave.  
 O arquivo config.properties já está listado no .gitignore.  
 
